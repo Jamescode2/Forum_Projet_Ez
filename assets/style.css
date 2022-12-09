@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    display: grid;
+    justify-items: center;
+    align-items: baseline;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    width: 100%;
+    height: 300px;
+    background: rgb(40,52,180);
+    background: linear-gradient(188deg, rgba(40,52,180,0.8438725832129726) 29%, rgba(254,254,255,0.8718837876947654) 52%, rgba(71,69,217,0.8354692218684349) 74%);
+}
+#btnDeco{
+    width: 75%;
+    height: 20px;
+    grid-row: 1;
+    grid-column: 10;
+    border: 1px solid black;
+    background-color: #ccc;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#inscription{
+    width: 75%;
+    height: 20px;
+    grid-row: 1;
+    grid-column: 9;
+}
+#connection{
+    width: 75%;
+    height: 20px;
+    grid-row: 1;
+    grid-column: 10;
+}
+#profil{
+    width: 75%;
+    height: 20px;
+    grid-row: 1;
+    grid-column: 9;
+}
+#titre{
+    font-size: 40PX;
+    font-family: 'Zen Dots', cursive;
+    grid-row: 3/4;
+    grid-column: 5/7;
+    text-align: center;
+    vertical-align: middle;
+}
+#conteneur{
+    margin: 0% 10%;
+    width: 80%;
+    height: auto;
+    border: 2px solid red;
+    border-radius: 2em 2em 0 0 ;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#conteneur2{
+    margin: 0% 10%;
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(102, 99, 99);
+    color: white;
+}
+#index{
+    border: 2px solid white;
+}
+#colone1{
+    border: 2px solid white;
+    border-radius: 1.8em 0 0 0;
+    width: 40px;
+    padding: 10px;
+}
+.colone1{
+    border: 2px solid white;
+    width: 40px;
+    padding: 10px;
+}
+#colone2{
+    border: 2px solid white;
+    width: 600px;
+    cursor: pointer;
+}
+#colone2:hover{
+    text-decoration: underline;
+}
+#colone3{
+    border: 2px solid white;
+    width: 100px;
+}
+#colone4{
+    border: 2px solid white;
+    width: 100px;
+}
+#colone5{
+    border: 2px solid white;
+    border-radius: 0 1.8em 0 0;
+    width: 100px;
+}
+.colone5{
+    border: 2px solid white;
+    width: 100px;
+}
+.modal{
+    display:none;
+    width:65vw;
+    height:65vh;
+    position:fixed;
+    top:20%;
+    left:20%;
+    flex-direction:column;
+    justify-content:space-around;
+    color:white;
+    background-color:rgba(0,0,0,0.9);
+}
+
+.pseudoTxtarea{
+    margin-left: 35%;
+    height:20px;
+    overflow:auto;
+    max-width:100%;
+    width:200px;
+    background-color:#ccc;
+    color:#333;
+    font-size:20px;
+    padding:1em;
+}
+.pseudoBtn{
+    margin: 10px;
+    width: 150px;
+    margin-top: 20px;
+}
+.pseudoBtn:hover{
+    background-color: black;
+    color: white;
+}
+#btnDeco:hover{
+    background-color: black;
+    color: white;
+}
+.form{
+    gap: 10px;
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+}
+.tdIcons img{
+    padding-left:.5rem;
+}
+.tdIcons img:hover{
+    cursor:pointer;
+}
+.edit{
+    gap:5px;
+    width: 400px;
+    height: 40px;
+}
+h4{
+    margin: 0 20%;
+    font-size: 20px;
+    height: 40px;
+    border: 2px solid white;
+}
+.icon{
+    justify-content: space-between;
+}
+#createTopic{
+    width: 100%;
+    display: grid;
+    grid-template-columns: (repeat(10,10%));
+}
+#createTopicBtn{
+    grid-column: 7;
+}
+.create{
+    margin: 1% 20%;
+    height: 25px;
+    max-width: 100%;
+    width: 600px;
+    padding: 0.5em;
+}
+.pseudoTxtarea2{
+    margin-left: 20%;
+    height:200px;
+    overflow:auto;
+    max-width:100%;
+    width:600px;
+    background-color:#ccc;
+    color:#333;
+    font-size:20px;
+    padding:1em;
+}
+
+.closeBtn{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    line-height:50px;
+    font-size:36px;
+    text-align:center;
+    background-color:#111;
+    position:absolute;
+    top:50px;
+    right:50px;
+}
+
+#addBtn:hover,.closeBtn:hover,.pseudoBtn:hover{cursor:pointer;}
+
